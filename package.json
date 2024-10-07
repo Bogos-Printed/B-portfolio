@@ -1,0 +1,14 @@
+{
+  "name": "porfolio-dev",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beauclair N / Bogos-Printed",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
