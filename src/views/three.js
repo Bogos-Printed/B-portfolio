@@ -19,10 +19,13 @@ export function initThreeJS(container) {
 
   const loader = new GLTFLoader();
 
+  let model;
+
   loader.load(fish, function(gltf) {
-    const model = gltf.scene;
+    model = gltf.scene;
     model.position.set(0, -1, 0);
     // model.rotation.set(1,0,0);
+    // model.rotation.x +=0.5;
     scene.add(model);
   }, undefined, function(error) {
     console.error(error);
@@ -30,6 +33,9 @@ export function initThreeJS(container) {
 
   function animate() {
     requestAnimationFrame(animate);
+    if (model) {
+      model.rotation.y += 0.01;
+    }
     renderer.render(scene, camera);
   }
 
