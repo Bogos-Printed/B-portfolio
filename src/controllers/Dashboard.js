@@ -1,10 +1,18 @@
-import { initThreeJS } from "../views/three";
+import { initThreeJS } from '../views/three';
+import beh from '../views/pres';
+import activity from '../views/activity';
+import about from '../views/about';
+import softwares from '../views/softwares';
+import language from '../views/language';
+import projects from '../views/projects';
+import knowledge from '../views/knowledge';
+import qualities from '../views/qualities';
+import footer from '../views/footer';
 
 const Dashboard = class Dashboard {
   constructor(params) {
     this.el = document.querySelector('#root');
     this.params = params;
-    this.data = [];
 
     this.run();
   }
@@ -12,22 +20,30 @@ const Dashboard = class Dashboard {
   async render() {
     return `
       <div
-        class="bg-indigo-600 px-4 py-3 text-white sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
+        class="bg-yellow px-4 py-3 text-white sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
       >
         <p class="text-center font-medium sm:text-left">
-          Love Alpine JS?
+          Important:
           <br class="sm:hidden" />
-          Check out this new deep dive course!
+          In search of an Intership
         </p>
 
         <a
-          class="mt-4 block rounded-lg bg-white px-5 py-3 text-center text-sm font-medium text-indigo-600 transition hover:bg-white/90 focus:outline-none focus:ring active:text-indigo-500 sm:mt-0"
+          class="mt-4 block rounded-lg bg-black px-5 py-3 text-center text-sm font-medium text-crimson transition hover:bg-white/90 focus:outline-none focus:ring active:text-indigo-500 sm:mt-0"
           href="#"
         >
           Learn More
         </a>
       </div>
-      <div id="scene-container"></div>
+      ${beh()}
+      ${activity()}
+      ${about()}
+      ${softwares()}
+      ${language()}
+      ${projects()}
+      ${knowledge()}
+      ${qualities()}
+      ${footer()}
     `;
   }
 

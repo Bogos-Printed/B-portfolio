@@ -10,7 +10,7 @@ export default () => (`
           />
         </div>
 
-        <div class="lg:py-24">
+        <div class="m-8 lg:py-24">
           <h2 class="text-3xl font-bold sm:text-4xl">Shoot a John Deer</h2>
           <p class="text-3xl sm:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sint eum illum in maiores officia?</p>
         </div>
