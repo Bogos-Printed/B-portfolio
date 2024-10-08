@@ -1,25 +1,21 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-// import { OrbitControls } from 'three/addons/controls/OrbitControls.js'; 
 import fish from '../assets/models/fish.glb';
 
 export function initThreeJS(container) {
 
   const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(85, window.innerWidth / window.innerHeight, 0.1, 1000);
+  const camera = new THREE.PerspectiveCamera(85, container.clientWidth / container.clientHeight, 0.1, 1000);
 
   const renderer = new THREE.WebGLRenderer( {alpha: true});
-  renderer.setClearColor( 0x000000, 0 );
-  renderer.setSize(window.innerWidth / 2.5, window.innerHeight / 2.5, false);
+  renderer.setClearColor( 0xFFFFFF, 0 );
+  renderer.setSize(container.innerWidth, container.innerHeight, false);
   container.appendChild(renderer.domElement);
 
-  // const controls = new OrbitControls(camera, renderer.domElement);
   camera.position.set(3, 0, 0);
   camera.lookAt(0, -0.2, 0);
-  // controls.update();
 
   const loader = new GLTFLoader();
-
   let model;
 
   loader.load(fish, function(gltf) {
@@ -31,6 +27,18 @@ export function initThreeJS(container) {
   }, undefined, function(error) {
     console.error(error);
   });
+
+  function onWindowResize() {
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+
+    camera.aspect = width / height
+    camera.updateProjectionMatrix();
+
+    renderer.setSize(width, height);
+  }
+
+  window.addEventListener('resize', onWindowResize);
 
   function animate() {
     requestAnimationFrame(animate);
