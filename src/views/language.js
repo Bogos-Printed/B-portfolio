@@ -1,22 +1,21 @@
 export default () => (`
-<section>
-  <div class="mx-auto bg-black">
-    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-      <div class="relative h-96 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+<section class="mx-auto bg-black">
+  <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:grid-cols-2 lg:gap-16 items-center">
+
+      <div class="relative h-64 rounded-lg sm:h-80 lg:order-last lg:h-full">
         <img
-          alt=""
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx5epYYmqYl46JoCuW9UGC6GM9bVumRKGvtQ&s"
-          class="absolute inset-0 h-full w-full object-cover"
+          alt="coding stock image"
+          src="https://media.istockphoto.com/id/1047259374/photo/programming-source-code-abstract-background.jpg?s=612x612&w=0&k=20&c=07DAFiujCb58Zgu5ZArLprHiSKew5pCGqbTnop9GclA="
+          class="w-full h-full object-contain rounded-lg"
         />
       </div>
 
-      <div class="m-8 lg:py-24">
-        <h2 class="text-3xl text-white font-bold sm:text-4xl">Hit a comet</h2>
+      <div class="text-white sm:text-orange lg:py-24">
+        <h2 class="text-3xl font-bold sm:text-4xl">Languages Informatiques</h2>
 
-        <p class="mt-4 text-white">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis
-          eius quos ea neque sunt, accusantium soluta minus veniam tempora deserunt? Molestiae eius
-          quidem quam repellat.
+        <p class="mt-4 text-white sm:text-4xl sm:mb-8">
+          Je suis capable d'utiliser plusieurs langages notament le JavaScript, PHP, SQL et Python.
         </p>
       </div>
     </div>

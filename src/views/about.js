@@ -1,22 +1,23 @@
+import me from '../assets/img/me.jpg';
+
 export default () => (`
-    <section>
-    <div class="mx-auto bg-black">
-      <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-        <div class="relative h-96 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-full">
+    <section class="mx-auto bg-black">
+    <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-16 items-center">
+
+        <div class="relative h-64 rounded-lg sm:h-80 lg:order-first lg:h-full">
           <img
-            alt=""
-            src="https://cdn.prod.website-files.com/62d84e447b4f9e7263d31e94/637cacc62bf87f1f28db79ef_Cyber-Corn-Woman.jpeg"
-            class="absolute inset-0 h-full w-full object-cover"
+            alt="Photo de moi"
+            src="${me}"
+            class="w-full h-full object-contain rounded-lg"
           />
         </div>
 
-        <div class="m-8 lg:py-24">
-          <h2 class="text-3xl text-white font-bold sm:text-4xl">Across the galaxy</h2>
+        <div class="sm:text-orange text-white lg:py-24">
+          <h2 class="text-3xl font-bold sm:text-4xl">Qui suis-je donc exactement ?</h2>
 
-          <p class="mt-4 text-white">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis
-            eius quos ea neque sunt, accusantium soluta minus veniam tempora deserunt? Molestiae eius
-            quidem quam repellat.
+          <p class="mt-4 text-white sm:text-4x">
+            Je suis un passioné de tech en tout genre qui poursuis ça vocation dans le developpement informatique. Toujour prêt a tester et appredre de nouveaux concept !
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { initThreeJS } from '../views/three';
-import beh from '../views/pres';
+import presentation from '../views/pres';
 import activity from '../views/activity';
 import about from '../views/about';
 import softwares from '../views/softwares';
@@ -20,7 +20,7 @@ const Dashboard = class Dashboard {
   async render() {
     return `
       <div
-        class="bg-yellow px-4 py-3 text-white sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
+        class="bg-yellow px-4 py-3 text-black sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
       >
         <p class="text-center font-medium sm:text-left">
           Important:
@@ -35,7 +35,7 @@ const Dashboard = class Dashboard {
           Learn More
         </a>
       </div>
-      ${beh()}
+      ${presentation()}
       ${activity()}
       ${about()}
       ${softwares()}
