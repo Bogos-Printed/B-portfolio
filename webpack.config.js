@@ -29,13 +29,11 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|ico|svg|avif)$/i,
-        use: [
-          {
-            loader: "file-loader",
-          },
-        ],
+        type: 'asset/resource',
       },
-      { test: /\.ts$/, use: "ts-loader" },
+      { 
+        test: /\.ts$/, 
+        use: "ts-loader" },
       {
         test: /\.(glb|gltf)$/,
         type: 'asset/resource',
