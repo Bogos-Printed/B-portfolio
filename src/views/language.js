@@ -12,7 +12,7 @@ export default () => (`
       </div>
 
       <div class="text-white sm:text-orange lg:py-24">
-        <h2 class="text-3xl font-bold sm:text-4xl">Languages Informatiques</h2>
+        <h2 class="text-3xl font-bold sm:text-5xl">Languages Informatiques</h2>
 
         <p class="mt-4 text-white sm:text-4xl sm:mb-8">
           Je suis capable d'utiliser plusieurs langages notament le JavaScript, PHP, SQL et Python.

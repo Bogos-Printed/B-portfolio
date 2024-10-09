@@ -22,13 +22,13 @@ const Dashboard = class Dashboard {
       <div
         class="bg-yellow px-4 py-3 text-black sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
       >
-        <p class="text-center font-medium sm:text-left">
+        <p class="text-center sm:text-2xl font-medium sm:text-left">
           Je suis en recherche d'une alternance pour 2024! 
         </p>
 
         <a
-          class="mt-4 block rounded-lg bg-orange px-5 py-3 text-center text-sm font-medium text-white transition hover:bg-white/90 focus:outline-none focus:ring active:text-indigo-500 sm:mt-0"
-          href="https://www.linkedin.com/in/nathan-beauclair/"
+          class="mt-4 block rounded-lg sm:text-xl bg-orange px-5 py-3 text-center text-sm font-medium text-white transition hover:bg-white/90 focus:outline-none focus:ring active:text-indigo-500 sm:mt-0"
+          href="https://www.linkedin.com/feed/update/urn:li:activity:7203768609452507138/"
         >
           Contacter moi
         </a>

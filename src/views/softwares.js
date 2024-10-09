@@ -1,6 +1,6 @@
 export default () => (`
 
-<section class="bg-white-900 text-black">
+<section class="flex justify-center bg-white-900 text-black">
   <div class="max-w-screen-xl px-4 py-8 sm:px-8 sm:py-12 lg:px-8 lg:py-16">
     <div class="max-w-xl mx-auto text-center">
       <h2 class="text-3xl font-bold sm:text-4xl">Softwares</h2>

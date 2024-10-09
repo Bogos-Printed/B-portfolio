@@ -2,7 +2,7 @@ export default () => (`
 <section class="bg-white-900 text-black">
   <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
     <div class="mx-auto max-w-lg text-center">
-      <h2 class="text-3xl font-bold sm:text-4xl">Mes qualités</h2>
+      <h2 class="text-3xl font-bold sm:text-5xl">Mes qualités</h2>
 
     </div>
 
@@ -30,9 +30,9 @@ export default () => (`
           />
         </svg>
 
-        <h2 class="mt-4 text-xl font-bold text-black">Créatif</h2>
+        <h2 class="mt-4 text-xl sm:text-3xl font-bold text-black">Créatif</h2>
 
-        <p class="mt-1 text-sm text-gray-300">
+        <p class="mt-1 text-sm sm:text-2xl text-gray-300">
           Débordant d'idées et toujours prêt à faire des suggestions.
         </p>
       </div>
@@ -60,9 +60,9 @@ export default () => (`
           />
         </svg>
 
-        <h2 class="mt-4 text-xl font-bold text-black">Perfectionniste</h2>
+        <h2 class="mt-4 text-xl sm:text-3xl font-bold text-black">Perfectionniste</h2>
 
-        <p class="mt-1 text-sm text-gray-300">
+        <p class="mt-1 text-sm  sm:text-2xl text-gray-300">
           Une grande attention aux détails pour atteindre ma vision.
         </p>
       </div>
@@ -90,9 +90,9 @@ export default () => (`
           />
         </svg>
 
-        <h2 class="mt-4 text-xl font-bold text-black">Ouvert d'esprit</h2>
+        <h2 class="mt-4 text-xl sm:text-3xl font-bold text-black">Ouvert d'esprit</h2>
 
-        <p class="mt-1 text-sm text-gray-300">
+        <p class="mt-1 text-sm sm:text-2xl text-gray-300">
           Toujours prêt à apprendre de nouveaux concepts et à réapprendre mes bases.
         </p>
       </div>
