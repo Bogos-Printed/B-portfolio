@@ -13,7 +13,7 @@ export default () => (`
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="size-10 text-pink-500"
+          class="size-10 text-blue"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -43,7 +43,7 @@ export default () => (`
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="size-10 text-pink-500"
+          class="size-10 text-crimson"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
