@@ -24,6 +24,7 @@ export function initThreeJS(container) {
     // model.rotation.set(1,0,0);
     // model.rotation.x +=0.5;
     scene.add(model);
+    window.addEventListener('resize', onWindowResize);
   }, undefined, function(error) {
     console.error(error);
   });
@@ -38,7 +39,7 @@ export function initThreeJS(container) {
     renderer.setSize(width, height);
   }
 
-  window.addEventListener('resize', onWindowResize);
+  onWindowResize();
 
   function animate() {
     requestAnimationFrame(animate);

@@ -856,6 +856,11 @@ video {
   color: rgb(7 7 8 / var(--tw-text-opacity));
 }
 
+.text-blue {
+  --tw-text-opacity: 1;
+  color: rgb(0 255 255 / var(--tw-text-opacity));
+}
+
 .text-crimson {
   --tw-text-opacity: 1;
   color: rgb(255 41 84 / var(--tw-text-opacity));
@@ -869,11 +874,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-blue {
-  --tw-text-opacity: 1;
-  color: rgb(0 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-xl {

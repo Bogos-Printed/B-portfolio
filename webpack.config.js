@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/index.js", //if you unuse typescript entry
   //entry: './src/index.ts',
   output: {
-    filename: "src/[name].js",
+    filename: "src/[name].[fullhash].js",
     path: path.resolve(__dirname, "dist"),
     publicPath: "./"
   },
