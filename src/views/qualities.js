@@ -63,7 +63,7 @@ export default () => (`
         <h2 class="mt-4 text-xl sm:text-3xl font-bold text-black">Perfectionniste</h2>
 
         <p class="mt-1 text-sm  sm:text-2xl text-gray-300">
-          Une grande attention aux détails pour atteindre ma vision.
+          Une grande attention aux détails pour atteindre mes objectifs.
         </p>
       </div>
 
@@ -93,7 +93,7 @@ export default () => (`
         <h2 class="mt-4 text-xl sm:text-3xl font-bold text-black">Ouvert d'esprit</h2>
 
         <p class="mt-1 text-sm sm:text-2xl text-gray-300">
-          Toujours prêt à apprendre de nouveaux concepts et à réapprendre mes bases.
+          Toujours prêt à apprendre de nouveaux concepts et à mettre à jour mes aquis.
         </p>
       </div>
     </div>

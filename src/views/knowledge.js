@@ -17,7 +17,7 @@ export default () => (`
           <h2 class="text-3xl sm:text-orange text-white font-bold sm:text-5xl">Autodidacte en 3D</h2>
   
           <p class="mt-4 text-white sm:text-4xl sm:mb-8">
-            Avec quelques idées en tête, je me suis poussé à apprendre la 3D par moi-même et à partager ma nouvelle passion.
+            Avec quelques idées en tête, j'ai décidé d'apprendre la 3D par moi-même et de partager ma nouvelle passion.
           </p>
         </div>
       </div>

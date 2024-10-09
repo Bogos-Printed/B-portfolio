@@ -14,7 +14,7 @@ export default () => (`
 
         <div class="m-8 lg:py-24">
           <h2 class="mb-3 text-3xl font-bold sm:text-5xl">Hey !</h2>
-          <p class="text-3xl sm:text-4xl">Je suis Nathan Beauclair un étudiant à CODA sur Orléans en 2ème année d'étude de Concepteur Développeur d'Application.</p>
+          <p class="text-3xl sm:text-4xl">Je suis Nathan Beauclair, étudiant à CODA Orléans en 2ème année d'étude de Concepteur Développeur d'Application.</p>
         </div>
       </div>
     </div>

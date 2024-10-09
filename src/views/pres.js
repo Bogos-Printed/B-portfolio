@@ -19,7 +19,7 @@ export default () => (
             Projects
           </a>
         </div>
-        <div id=scene-container class="relative h-96 w-96 rounded-lg sm:h-80 lg:h-full">
+        <div id="scene-container" class="relative h-96 w-96 rounded-lg sm:h-80 lg:h-full">
         </div>
       </div>
     </div>
