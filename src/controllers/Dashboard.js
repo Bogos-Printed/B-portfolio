@@ -25,14 +25,14 @@ const Dashboard = class Dashboard {
         <p class="text-center font-medium sm:text-left">
           Important:
           <br class="sm:hidden" />
-          In search of an Intership
+          En recherche d'une alternance pour 2024! 
         </p>
 
         <a
           class="mt-4 block rounded-lg bg-black px-5 py-3 text-center text-sm font-medium text-crimson transition hover:bg-white/90 focus:outline-none focus:ring active:text-indigo-500 sm:mt-0"
           href="#"
         >
-          Learn More
+          Plus de détails
         </a>
       </div>
       ${presentation()}

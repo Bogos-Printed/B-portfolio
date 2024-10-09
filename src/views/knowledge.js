@@ -13,10 +13,8 @@ export default () => (`
         <div class="m-8 lg:py-24">
           <h2 class="text-3xl text-white font-bold sm:text-4xl">Autodidacte en 3D</h2>
   
-          <p class="mt-4 text-white">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis
-            eius quos ea neque sunt, accusantium soluta minus veniam tempora deserunt? Molestiae eius
-            quidem quam repellat.
+          <p class="mt-4 text-white sm:text-4xl sm:mb-8">
+            Avec quelques idées en tête, je me suis pousser a apprendre la 3D par moi même et partager ma nouvelle passion !
           </p>
         </div>
       </div>

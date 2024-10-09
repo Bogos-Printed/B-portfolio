@@ -22,7 +22,7 @@ export default () => (`
       </div>
     </div>
 
-    <p class="text-xs text-gray-500">&copy; 2024. B Nathan. All rights reserved.</p>
+    <p class="text-xs text-gray-500">&copy; 2024. Beauclair Nathan. All rights reserved.</p>
   </div>
 </footer>
 `);

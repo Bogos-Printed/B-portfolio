@@ -4,10 +4,6 @@ export default () => (`
     <div class="mx-auto max-w-lg text-center">
       <h2 class="text-3xl font-bold sm:text-4xl">Mes qualités</h2>
 
-      <p class="mt-4 text-gray-800">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
-        nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe laborum.
-      </p>
     </div>
 
     <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -34,11 +30,10 @@ export default () => (`
           />
         </svg>
 
-        <h2 class="mt-4 text-xl font-bold text-black">Creative</h2>
+        <h2 class="mt-4 text-xl font-bold text-black">Créatif</h2>
 
         <p class="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-          distinctio alias voluptatum blanditiis laudantium.
+          Débordants d'idées et toujours prêt a faire des suggestions.
         </p>
       </div>
 
@@ -65,11 +60,10 @@ export default () => (`
           />
         </svg>
 
-        <h2 class="mt-4 text-xl font-bold text-black">Perfectionist</h2>
+        <h2 class="mt-4 text-xl font-bold text-black">Perfectionniste</h2>
 
         <p class="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-          distinctio alias voluptatum blanditiis laudantium.
+          Une grande attention au détails pour atteindre ma vision.
         </p>
       </div>
 
@@ -96,11 +90,10 @@ export default () => (`
           />
         </svg>
 
-        <h2 class="mt-4 text-xl font-bold text-black">Open minded</h2>
+        <h2 class="mt-4 text-xl font-bold text-black">Ouvert d'esprit</h2>
 
         <p class="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-          distinctio alias voluptatum blanditiis laudantium.
+          Toujours prêt a apprendre de nouveau concepts et réapprendre mes bases
         </p>
       </div>
     </div>
