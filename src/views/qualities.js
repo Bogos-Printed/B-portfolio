@@ -33,7 +33,7 @@ export default () => (`
         <h2 class="mt-4 text-xl font-bold text-black">Créatif</h2>
 
         <p class="mt-1 text-sm text-gray-300">
-          Débordants d'idées et toujours prêt a faire des suggestions.
+          Débordant d'idées et toujours prêt à faire des suggestions.
         </p>
       </div>
 
@@ -63,7 +63,7 @@ export default () => (`
         <h2 class="mt-4 text-xl font-bold text-black">Perfectionniste</h2>
 
         <p class="mt-1 text-sm text-gray-300">
-          Une grande attention au détails pour atteindre ma vision.
+          Une grande attention aux détails pour atteindre ma vision.
         </p>
       </div>
 
@@ -93,7 +93,7 @@ export default () => (`
         <h2 class="mt-4 text-xl font-bold text-black">Ouvert d'esprit</h2>
 
         <p class="mt-1 text-sm text-gray-300">
-          Toujours prêt a apprendre de nouveau concepts et réapprendre mes bases
+          Toujours prêt à apprendre de nouveaux concepts et à réapprendre mes bases.
         </p>
       </div>
     </div>
