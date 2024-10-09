@@ -13,8 +13,8 @@ export default () => (`
           />
         </div>
 
-        <div class="sm:text-orange text-white sm:text-4xl sm:mb-8 lg:py-24">
-          <h2 class="text-3xl font-bold sm:text-5xl">Qui suis-je exactement ?</h2>
+        <div class="sm:text-orange text-white sm:text-4xl sm:mb-8 lg:text-2xl lg:py-24">
+          <h2 class="text-3xl font-bold lg:text-4xl sm:text-5xl">Qui suis-je exactement ?</h2>
 
           <p class="mt-4 text-white">
             Je suis un passionné de tech en tout genre qui s'éclate dans le developpement informatique. Toujours prêt à tester et apprendre de nouveaux concepts !

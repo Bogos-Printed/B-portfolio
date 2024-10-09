@@ -8,13 +8,13 @@ export default () => (
           <h2 class="text-5xl sm:text-6xl text-white font-bold sm:text-4xl">Beauclair</h2>
           <a
             href="https://www.linkedin.com/in/nathan-beauclair/"
-            class="mt-8 inline-block sm:text-2xl rounded bg-orange px-12 py-3 text-sm font-medium text-white transition hover:bg-yellow focus:outline-none focus:ring focus:ring-yellow-400"
+            class="mt-8 inline-block md:text-xl lg:text-xl sm:text-2xl rounded bg-orange px-12 py-3 text-sm font-medium text-white transition hover:bg-yellow focus:outline-none focus:ring focus:ring-yellow-400"
           >
             Contacter moi
           </a>
           <a
             href="https://github.com/Bogos-Printed"
-            class="mt-8 inline-block sm:text-2xl rounded border border-yellow px-12 py-3 text-sm font-medium text-white transition hover:bg-orange hover:border-black focus:outline-none focus:ring focus:ring-yellow-400"
+            class="mt-8 inline-block md:text-xl lg:text-xl sm:text-2xl rounded border border-yellow px-12 py-3 text-sm font-medium text-white transition hover:bg-orange hover:border-black focus:outline-none focus:ring focus:ring-yellow-400"
           >
             Projects
           </a>

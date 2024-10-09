@@ -30,9 +30,9 @@ export default () => (`
           />
         </svg>
 
-        <h2 class="mt-4 text-xl sm:text-3xl font-bold text-black">Créatif</h2>
+        <h2 class="mt-4 lg:text-4xl sm:text-5xl font-bold text-black">Créatif</h2>
 
-        <p class="mt-1 text-sm sm:text-2xl text-gray-300">
+        <p class="mt-1 text-sm lg:text-2xl sm:text-4xl text-gray-300">
           Débordant d'idées et toujours prêt à faire des suggestions.
         </p>
       </div>
@@ -60,9 +60,9 @@ export default () => (`
           />
         </svg>
 
-        <h2 class="mt-4 text-xl sm:text-3xl font-bold text-black">Perfectionniste</h2>
+        <h2 class="mt-4 lg:text-4xl sm:text-5xl font-bold text-black">Perfectionniste</h2>
 
-        <p class="mt-1 text-sm  sm:text-2xl text-gray-300">
+        <p class="mt-1 text-sm lg:text-2xl sm:text-4xl text-gray-300">
           Une grande attention aux détails pour atteindre mes objectifs.
         </p>
       </div>
@@ -90,21 +90,12 @@ export default () => (`
           />
         </svg>
 
-        <h2 class="mt-4 text-xl sm:text-3xl font-bold text-black">Ouvert d'esprit</h2>
+        <h2 class="mt-4 lg:text-4xl sm:text-5xl font-bold text-black">Ouvert d'esprit</h2>
 
-        <p class="mt-1 text-sm sm:text-2xl text-gray-300">
+        <p class="mt-1 text-sm lg:text-2xl sm:text-4xl text-gray-300">
           Toujours prêt à apprendre de nouveaux concepts et à mettre à jour mes aquis.
         </p>
       </div>
-    </div>
-
-    <div class="mt-12 text-center">
-      <a
-        href="#"
-        class="inline-block rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
-      >
-        Get Started Today
-      </a>
     </div>
   </div>
 </section>

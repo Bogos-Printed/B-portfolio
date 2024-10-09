@@ -4,15 +4,15 @@ export default () => (`
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:grid-cols-2 lg:gap-16 items-center">
 
       <div class="m-8 lg:py-24">
-        <h2 class="text-3xl text-black font-bold sm:text-5xl">Mes projets</h2>
+        <h2 class="lg:text-4xl text-black font-bold sm:text-5xl">Mes projets</h2>
 
-        <p class="mt-4 text-black sm:text-4xl sm:mb-8">
+        <p class="mt-4 text-black lg:text-2xl sm:text-4xl sm:mb-8">
           Durant ma scolarité et mon temps libre, j'ai créé plusieurs projets en utilisant des technologies variées ainsi que des langages multiples.
           La plupart de ces projets sont disponibles publiquement sur mon GitHub.
         </p>
         <a
             href="https://github.com/Bogos-Printed"
-            class="mt-8 inline-block rounded bg-orange px-12 py-3 text-2xl text-sm font-medium text-white transition hover:bg-yellow focus:outline-none focus:ring focus:ring-yellow-400"
+            class="mt-8 inline-block rounded bg-orange px-12 py-3 lg:text-2xl sm:text-3xl text-sm font-medium text-white transition hover:bg-yellow focus:outline-none focus:ring focus:ring-yellow-400"
           >
             Mes projets
         </a>

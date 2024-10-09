@@ -14,9 +14,9 @@ export default () => (`
         </div>
   
         <div class="m-8 lg:py-24">
-          <h2 class="text-3xl sm:text-orange text-white font-bold sm:text-5xl">Autodidacte en 3D</h2>
+          <h2 class="lg:text-4xl sm:text-orange text-white font-bold sm:text-5xl">Autodidacte en 3D</h2>
   
-          <p class="mt-4 text-white sm:text-4xl sm:mb-8">
+          <p class="mt-4 text-white lg:text-2xl sm:text-4xl sm:mb-8">
             Avec quelques idées en tête, j'ai décidé d'apprendre la 3D par moi-même et de partager ma nouvelle passion.
           </p>
         </div>

@@ -22,7 +22,7 @@ const Dashboard = class Dashboard {
       <div
         class="bg-yellow px-4 py-3 text-black sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
       >
-        <p class="text-center sm:text-2xl font-medium sm:text-left">
+        <p class="text-center sm:text-2xl lg:text-xl md:text-xl font-medium sm:text-left">
           Je suis en recherche d'une alternance pour 2024! 
         </p>
 
