@@ -1,7 +1,7 @@
 export default () => (`
 <section class="mx-auto bg-black">
   <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:grid-cols-2 lg:gap-16 items-center">
+    <div class="grid grid-cols-1 sm:grid-row gap-8 lg:grid-cols-2 lg:gap-16 items-center">
 
       <div class="relative h-64 rounded-lg sm:h-80 lg:order-last lg:h-full">
         <img
@@ -11,11 +11,11 @@ export default () => (`
         />
       </div>
 
-      <div class="text-white sm:text-orange lg:py-24">
+      <div class="m-8 text-white sm:text-orange lg:py-24">
         <h2 class="text-3xl font-bold lg:text-4xl sm:text-5xl">Langages Informatiques</h2>
 
         <p class="mt-4 text-white lg:text-2xl sm:text-4xl sm:mb-8">
-          Je suis capable d'utiliser plusieurs langages notamment le JavaScript, PHP, SQL et Python.
+          Je suis capable d'utiliser plusieurs langages notamment le JavaScript, PHP, SQL, Python et Java.
         </p>
       </div>
     </div>

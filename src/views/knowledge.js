@@ -3,11 +3,11 @@ import render from '../assets/img/render.png';
 export default () => (`
   <section  class="mx-auto bg-black">
     <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:grid-cols-2 lg:gap-16 items-center">
+      <div class="grid grid-cols-1 sm:grid-row gap-8 lg:grid-cols-2 lg:gap-16 items-center">
 
         <div class="relative h-64 rounded-lg sm:h-80 lg:order-last lg:h-full">
           <img
-            alt="3d learnt"
+            alt="3d learnt, do not redistribute (all rights resevered to Beauclair Nathan)"
             src="${render}"
             class="w-full h-full object-contain rounded-lg"
           />

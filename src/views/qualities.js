@@ -2,7 +2,7 @@ export default () => (`
 <section class="bg-white-900 text-black">
   <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
     <div class="mx-auto max-w-lg text-center">
-      <h2 class="text-3xl font-bold sm:text-5xl">Mes qualités</h2>
+      <h2 class="lg:text-4xl sm:text-5xl font-bold ">Mes qualités</h2>
 
     </div>
 

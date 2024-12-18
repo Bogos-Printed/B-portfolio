@@ -22,7 +22,7 @@ export default () => (`
       </div>
     </div>
 
-    <p class="text-xs sm:text-xl text-gray-500">&copy; 2024. Beauclair Nathan. All rights reserved.</p>
+    <p class="text-xs sm:text-xl text-gray-500">&copy; 2024. Beauclair Nathan. All rights reserved.  Do not redistribute or use the images in "autodidacte" or "Qui suis-je" without agreement / authorization</p>
   </div>
 </footer>
 `);
